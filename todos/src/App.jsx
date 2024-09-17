@@ -1,10 +1,13 @@
-import { useState } from "react";
-
+import React, { useState } from "react";
+import ToDoItem from "./comps/ToDoItem";
 function App() {
   return (
-    <div>
-      <p>Todos</p>
-    </div>
+    <>
+      <p> To do:</p>
+      <div>
+        <ToDoItem></ToDoItem>
+      </div>
+    </>
   );
 }
 
